@@ -1,14 +1,5 @@
-# Filament releases
+# Filament releases (moved)
 
-Filament's installers for Windows, macOS and Linux. Download the newest from **[Releases](https://github.com/invertibleMatrix/filament-releases/releases/latest)**:
+Filament's releases are now published beside its source, in **[invertibleMatrix/filament](https://github.com/invertibleMatrix/filament/releases/latest)**. Download the newest there, or from [filamentdev.com/download](https://filamentdev.com/download).
 
-| System | File |
-|---|---|
-| Windows (x64) | `Filament-<version>-setup-x64.exe` |
-| macOS (Apple Silicon) | `Filament-<version>-mac-arm64.dmg`. Open it and drag Filament to Applications |
-| Linux (x64), any distribution | `Filament-<version>-linux-x86_64.AppImage`. Make it executable with `chmod +x`, then run it (Ubuntu 22.04 and newer need `libfuse2`) |
-| Debian and Ubuntu | `Filament-<version>-linux-amd64.deb`, installed with `sudo apt install ./Filament-<version>-linux-amd64.deb` |
-
-Once installed, Filament finds its updates here by itself. It tells you when a new version is out and installs it when you say so.
-
-This repository holds releases only.
+This repository held Filament's releases while the source was private. Filament up to 0.9.83 looks here for its updates, so each new release is copied here for a while: install it, and Filament looks in the new place from then on. The releases before 0.9.84 stay here.
